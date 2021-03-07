@@ -15,6 +15,9 @@ __pycache__/
 # C extensions
 *.so
 
+# executable 
+geckodriver.exe
+
 # Distribution / packaging
 .Python
 build/
