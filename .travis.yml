@@ -12,5 +12,6 @@ before_script:
     - docker ps -a
 
 script: 
-    - docker-compose exec -T app pytest
+    - docker-compose up
+    - docker-compose exec -T todo-app:prod pytest
     
