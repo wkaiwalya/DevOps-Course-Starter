@@ -12,5 +12,5 @@ before_script:
     - docker ps -a
 
 script: 
-    - poetry run pytest test
+    - docker-compose exec -T app pytest test
     
