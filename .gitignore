@@ -116,7 +116,6 @@ env/
 Vagrantfile
 .git 
 Dockerfile
-.env
 .idea/
 .vscode/
 .venv
