@@ -8,7 +8,7 @@ services:
 before_script: 
     - pip install docker-compose
     - docker build --target production --tag todo-app:prod .
-    - docker run -p 5000:5000 --env-file .env todo-app:prod
+    - docker run -d -p 127.0.0.1:8000:8000 --env-file .env todo-app:prod
     - docker ps -a
 
 script: 
