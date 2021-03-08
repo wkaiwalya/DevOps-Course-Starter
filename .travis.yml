@@ -13,5 +13,5 @@ before_script:
 
 script: 
     - docker-compose up
-    - docker-compose exec -T todo-app:dev pytest
+    - docker-compose exec -T pytest test
     
